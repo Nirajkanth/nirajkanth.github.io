@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+<style>
+body { background:#0f172a; color:#e2e8f0; font-family:Arial; }
+nav { background:#020617; padding:15px; text-align:center; }
+nav a { color:#38bdf8; margin:0 15px; text-decoration:none; }
+section { max-width:900px; margin:auto; padding:40px; }
+.card { background:#020617; padding:20px; margin:15px 0; border-radius:10px; }
+</style>
+</head>
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="projects.html">Projects</a>
+<a href="experience.html">Experience</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section>
+<h2>Projects</h2>
+
+<div class="card">
+<h3>Reddit Data Pipeline</h3>
+<p>AWS Glue, Athena, Redshift, Airflow</p>
+<p>End-to-end pipeline for extracting and analyzing Reddit data.</p>
+</div>
+
+<div class="card">
+<h3>Real-time Voting System</h3>
+<p>PySpark, Kafka, Streamlit</p>
+<p>Real-time data streaming and processing system.</p>
+</div>
+
+</section>
+</body>
+</html>

@@ -3,120 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Home</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-    }
-    header {
-      padding: 40px;
-      text-align: center;
-      background: #020617;
-    }
-    h1 { margin: 0; }
-    section {
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #38bdf8;
-      padding-bottom: 10px;
-    }
-    .card {
-      background: #020617;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 10px;
-    }
-    ul { padding-left: 20px; }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #020617;
-    }
+    body { margin:0; font-family: Arial; background:#0f172a; color:#e2e8f0; }
+    nav { background:#020617; padding:15px; text-align:center; }
+    nav a { color:#38bdf8; margin:0 15px; text-decoration:none; font-weight:bold; }
+    header { text-align:center; padding:60px 20px; }
+    section { max-width:900px; margin:auto; padding:40px; }
+    .card { background:#020617; padding:20px; margin:15px 0; border-radius:10px; }
   </style>
 </head>
 <body>
 
+<nav>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="experience.html">Experience</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
 <header>
-  <h1>Nirajkanth Ravichandran</h1>
+  <h1>Your Name</h1>
   <p>Data Engineer | Generative AI Enthusiast</p>
 </header>
 
 <section>
   <h2>About Me</h2>
   <p>
-    Self-driven Data Engineer with 3 years of experience and growing expertise in Generative AI, passionate about building scalable data systems and AI-driven solutions to support impactful business outcomes.
+    Self-driven Data Engineer with 3 years of experience and growing expertise in Generative AI, passionate about building scalable data systems and AI-driven solutions.
   </p>
 </section>
 
 <section>
-  <h2>Experience</h2>
-
+  <h2>Skills</h2>
   <div class="card">
-    <h3>Senior Data Engineer - Velaris Sri Lanka</h3>
-    <p><i>Jan 2026 – Present</i></p>
-    <ul>
-      <li>Leading Data Engineering team and platform architecture</li>
-      <li>Reduced data platform costs by ~70% via ETL transition</li>
-    </ul>
+    <p><b>Languages:</b> Python, SQL</p>
+    <p><b>Cloud:</b> AWS (S3, Lambda, Redshift, DMS)</p>
+    <p><b>Tools:</b> Airflow, dbt, Spark</p>
+    <p><b>AI:</b> LLMs, RAG, NLP</p>
   </div>
-
-  <div class="card">
-    <h3>Data Engineer - Velaris Sri Lanka</h3>
-    <p><i>Jan 2025 – Dec 2025</i></p>
-    <ul>
-      <li>Built 10+ ETL pipelines using AWS</li>
-      <li>Reduced ETL runtime by 95%</li>
-      <li>Worked on NL2SQL using Generative AI</li>
-      <li>Mentored junior engineers</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h3>Data Engineer - Axiata Digital Labs</h3>
-    <p><i>Jul 2023 – Dec 2024</i></p>
-    <ul>
-      <li>Built chatbot systems using LLMs</li>
-      <li>Developed RAG pipelines and SQL bots</li>
-    </ul>
-  </div>
-
 </section>
-
-<section>
-  <h2>Projects</h2>
-
-  <div class="card">
-    <h3>Cloud Data Migration</h3>
-    <p>Azure Data Factory, Databricks, Synapse, Power BI</p>
-  </div>
-
-  <div class="card">
-    <h3>Reddit Data Pipeline</h3>
-    <p>AWS Glue, Athena, Redshift, Airflow</p>
-  </div>
-
-  <div class="card">
-    <h3>Real-time Voting System</h3>
-    <p>PySpark, Kafka, Streamlit</p>
-  </div>
-
-</section>
-
-<section>
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>GitHub: github.com/yourusername</p>
-</section>
-
-<footer>
-  <p>© 2026 Your Name</p>
-</footer>
 
 </body>
 </html>
