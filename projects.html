@@ -1,39 +1,593 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Projects</title>
-<style>
-body { background:#0f172a; color:#e2e8f0; font-family:Arial; }
-nav { background:#020617; padding:15px; text-align:center; }
-nav a { color:#38bdf8; margin:0 15px; text-decoration:none; }
-section { max-width:900px; margin:auto; padding:40px; }
-.card { background:#020617; padding:20px; margin:15px 0; border-radius:10px; }
-</style>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Data engineering and AI projects by Nirajkanth Ravichandran."
+  >
+
+  <title>Projects | Nirajkanth Ravichandran</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-<a href="index.html">Home</a>
-<a href="projects.html">Projects</a>
-<a href="experience.html">Experience</a>
-<a href="contact.html">Contact</a>
-</nav>
+  <header class="header">
+    <nav class="navbar container">
 
-<section>
-<h2>Projects</h2>
+      <a href="index.html" class="logo">NR.</a>
 
-<div class="card">
-<h3>Reddit Data Pipeline</h3>
-<p>AWS Glue, Athena, Redshift, Airflow</p>
-<p>End-to-end pipeline for extracting and analyzing Reddit data.</p>
-</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
 
-<div class="card">
-<h3>Real-time Voting System</h3>
-<p>PySpark, Kafka, Streamlit</p>
-<p>Real-time data streaming and processing system.</p>
-</div>
+    </nav>
+  </header>
 
-</section>
+
+  <main>
+
+    <section class="page-hero">
+
+      <div class="container">
+
+        <p class="eyebrow">
+          PROJECTS
+        </p>
+
+        <h1>
+          Data engineering and AI projects
+        </h1>
+
+        <p>
+          A collection of projects covering cloud data engineering,
+          real-time processing, Generative AI, NL2SQL, RAG,
+          and intelligent automation.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="project-details-grid">
+
+          <!-- NL2SQL -->
+          <article
+            class="project-detail-card featured-project"
+            id="nl2sql"
+          >
+
+            <div class="project-top">
+
+              <span class="project-category">
+                GENERATIVE AI
+              </span>
+
+              <span class="project-status">
+                Featured
+              </span>
+
+            </div>
+
+            <h2>Intelligent NL2SQL System</h2>
+
+            <p class="project-summary">
+              A multi-agent system that converts natural-language business
+              questions into executable SQL queries for users with limited
+              SQL knowledge.
+            </p>
+
+            <h3>Project overview</h3>
+
+            <p>
+              The system identifies relevant database tables, retrieves
+              schema information and domain knowledge, generates SQL,
+              executes the query, and presents the result through a
+              Streamlit interface.
+            </p>
+
+            <p>
+              The project was developed for Customer Success analytics
+              and evaluated using a dataset of 150 natural-language
+              questions across easy, medium, and hard difficulty levels.
+            </p>
+
+            <h3>Main features</h3>
+
+            <ul class="detail-list">
+              <li>
+                Natural-language to SQL generation
+              </li>
+
+              <li>
+                Multi-agent workflow using LangGraph
+              </li>
+
+              <li>
+                Table identification and schema retrieval
+              </li>
+
+              <li>
+                RAG-based domain knowledge retrieval
+              </li>
+
+              <li>
+                SQL execution using PostgreSQL
+              </li>
+
+              <li>
+                Query interpretation and refinement
+              </li>
+
+              <li>
+                Clarification handling for ambiguous questions
+              </li>
+
+              <li>
+                Execution-based and LLM-as-a-Judge evaluation
+              </li>
+            </ul>
+
+            <div class="technology-list">
+              <span>Python</span>
+              <span>LangGraph</span>
+              <span>OpenAI</span>
+              <span>ChromaDB</span>
+              <span>PostgreSQL</span>
+              <span>Streamlit</span>
+              <span>RAG</span>
+              <span>Docker</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a
+                href="YOUR-NL2SQL-GITHUB-LINK"
+                class="button primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Repository
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Voice AI -->
+          <article
+            class="project-detail-card"
+            id="voice-ai"
+          >
+
+            <div class="project-top">
+              <span class="project-category">
+                VOICE AI
+              </span>
+            </div>
+
+            <h2>Voice AI Agent</h2>
+
+            <p class="project-summary">
+              An AI-powered conversational voice agent capable of
+              understanding spoken requests and generating contextual
+              responses.
+            </p>
+
+            <h3>Project overview</h3>
+
+            <p>
+              The project explores the integration of speech recognition,
+              Large Language Models, text-to-speech services,
+              conversational memory, and external tools.
+            </p>
+
+            <h3>Main features</h3>
+
+            <ul class="detail-list">
+              <li>
+                Speech-to-text input processing
+              </li>
+
+              <li>
+                LLM-based intent understanding
+              </li>
+
+              <li>
+                Context-aware conversation handling
+              </li>
+
+              <li>
+                Text-to-speech response generation
+              </li>
+
+              <li>
+                Tool and API integration
+              </li>
+
+              <li>
+                Automated conversational workflows
+              </li>
+            </ul>
+
+            <div class="technology-list">
+              <span>Python</span>
+              <span>LLMs</span>
+              <span>Speech-to-Text</span>
+              <span>Text-to-Speech</span>
+              <span>AI Agents</span>
+              <span>APIs</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a
+                href="YOUR-VOICE-AI-GITHUB-LINK"
+                class="button primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Repository
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Reddit Pipeline -->
+          <article
+            class="project-detail-card"
+            id="reddit-pipeline"
+          >
+
+            <div class="project-top">
+              <span class="project-category">
+                DATA ENGINEERING
+              </span>
+            </div>
+
+            <h2>Reddit Data Pipeline</h2>
+
+            <p class="project-summary">
+              An end-to-end data engineering pipeline for extracting,
+              transforming, storing, and analysing Reddit data using AWS.
+            </p>
+
+            <h3>Project overview</h3>
+
+            <p>
+              The pipeline extracts Reddit data using Python,
+              orchestrates workflows through Airflow, processes data
+              using AWS Glue, queries data using Athena, and loads
+              analytical data into Redshift.
+            </p>
+
+            <h3>Main features</h3>
+
+            <ul class="detail-list">
+              <li>
+                Reddit API data extraction
+              </li>
+
+              <li>
+                Workflow orchestration using Airflow
+              </li>
+
+              <li>
+                Raw data storage in Amazon S3
+              </li>
+
+              <li>
+                Data transformation using AWS Glue
+              </li>
+
+              <li>
+                Data querying through Athena
+              </li>
+
+              <li>
+                Analytical storage in Amazon Redshift
+              </li>
+            </ul>
+
+            <div class="technology-list">
+              <span>Python</span>
+              <span>AWS</span>
+              <span>S3</span>
+              <span>Airflow</span>
+              <span>Glue</span>
+              <span>Athena</span>
+              <span>Redshift</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a
+                href="YOUR-REDDIT-PIPELINE-GITHUB-LINK"
+                class="button primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Repository
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Real-Time Voting -->
+          <article
+            class="project-detail-card"
+            id="voting-system"
+          >
+
+            <div class="project-top">
+              <span class="project-category">
+                REAL-TIME DATA
+              </span>
+            </div>
+
+            <h2>Real-Time Voting System</h2>
+
+            <p class="project-summary">
+              A real-time streaming system for processing and
+              visualising live voting events.
+            </p>
+
+            <h3>Project overview</h3>
+
+            <p>
+              The application streams voting events through Kafka,
+              processes them using PySpark, stores results in PostgreSQL,
+              and displays live statistics through Streamlit.
+            </p>
+
+            <h3>Main features</h3>
+
+            <ul class="detail-list">
+              <li>
+                Real-time event ingestion using Kafka
+              </li>
+
+              <li>
+                Stream processing using PySpark
+              </li>
+
+              <li>
+                PostgreSQL data storage
+              </li>
+
+              <li>
+                Live dashboard using Streamlit
+              </li>
+
+              <li>
+                Containerised deployment using Docker
+              </li>
+            </ul>
+
+            <div class="technology-list">
+              <span>Kafka</span>
+              <span>PySpark</span>
+              <span>PostgreSQL</span>
+              <span>Streamlit</span>
+              <span>Docker</span>
+              <span>Python</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a
+                href="YOUR-VOTING-SYSTEM-GITHUB-LINK"
+                class="button primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Repository
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- RAG Assistant -->
+          <article
+            class="project-detail-card"
+            id="rag-assistant"
+          >
+
+            <div class="project-top">
+              <span class="project-category">
+                GENERATIVE AI
+              </span>
+            </div>
+
+            <h2>RAG-Based Knowledge Assistant</h2>
+
+            <p class="project-summary">
+              An intelligent assistant that retrieves relevant information
+              from a knowledge base and generates grounded responses.
+            </p>
+
+            <h3>Project overview</h3>
+
+            <p>
+              The application converts documents into embeddings,
+              stores them in a vector database, retrieves relevant
+              information, and provides the retrieved context to an LLM
+              for response generation.
+            </p>
+
+            <h3>Main features</h3>
+
+            <ul class="detail-list">
+              <li>
+                Document ingestion and chunking
+              </li>
+
+              <li>
+                Embedding generation
+              </li>
+
+              <li>
+                Vector similarity search
+              </li>
+
+              <li>
+                Context retrieval
+              </li>
+
+              <li>
+                Grounded LLM response generation
+              </li>
+            </ul>
+
+            <div class="technology-list">
+              <span>Python</span>
+              <span>RAG</span>
+              <span>LLMs</span>
+              <span>Embeddings</span>
+              <span>Vector Database</span>
+              <span>ChromaDB</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a
+                href="YOUR-RAG-PROJECT-GITHUB-LINK"
+                class="button primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Repository
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- BigQuery Research -->
+          <article
+            class="project-detail-card"
+            id="bigquery-design"
+          >
+
+            <div class="project-top">
+              <span class="project-category">
+                BIGQUERY
+              </span>
+            </div>
+
+            <h2>BigQuery Table Design Research</h2>
+
+            <p class="project-summary">
+              Practical research into designing efficient, scalable,
+              and maintainable BigQuery tables.
+            </p>
+
+            <h3>Topics covered</h3>
+
+            <ul class="detail-list">
+              <li>
+                Selecting appropriate BigQuery data types
+              </li>
+
+              <li>
+                Nested and repeated fields
+              </li>
+
+              <li>
+                Partitioning strategies
+              </li>
+
+              <li>
+                Clustering strategies
+              </li>
+
+              <li>
+                Key constraints
+              </li>
+
+              <li>
+                Data retention planning
+              </li>
+
+              <li>
+                Performance and cost considerations
+              </li>
+            </ul>
+
+            <div class="technology-list">
+              <span>BigQuery</span>
+              <span>Google Cloud</span>
+              <span>SQL</span>
+              <span>Data Modelling</span>
+              <span>Performance Optimisation</span>
+            </div>
+
+            <div class="project-actions">
+
+              <a
+                href="YOUR-MEDIUM-ARTICLE-LINK"
+                class="button primary-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read Article
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <p>
+        © 2026 Nirajkanth Ravichandran
+      </p>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+    </div>
+
+  </footer>
+
 </body>
 </html>

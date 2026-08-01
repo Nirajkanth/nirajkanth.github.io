@@ -2,141 +2,602 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nirajkanth Ravichandran</title>
 
-  <style>
-    html { scroll-behavior: smooth; }
-    body { margin:0; font-family: Arial; background:#0f172a; color:#e2e8f0; }
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-    nav {
-      position: fixed;
-      width: 100%;
-      top: 0;
-      background:#020617;
-      padding:15px;
-      text-align:center;
-      z-index:1000;
-    }
-    nav a {
-      color:#38bdf8;
-      margin:0 15px;
-      text-decoration:none;
-      font-weight:bold;
-    }
+  <meta
+    name="description"
+    content="Portfolio of Nirajkanth Ravichandran, Data Engineer and AI enthusiast."
+  >
 
-    section {
-      max-width:900px;
-      margin:auto;
-      padding:100px 20px;
-    }
+  <title>Nirajkanth Ravichandran | Data Engineer</title>
 
-    h1 { font-size: 40px; margin-bottom:10px; }
-    h2 { border-bottom:2px solid #38bdf8; padding-bottom:10px; }
-
-    .hero {
-      text-align:center;
-      padding-top:120px;
-    }
-
-    .card {
-      background:#020617;
-      padding:20px;
-      margin:20px 0;
-      border-radius:10px;
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .skills p { margin:8px 0; }
-
-    footer {
-      text-align:center;
-      padding:20px;
-      background:#020617;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<nav>
-  <a href="#home">Home</a>
-  <a href="#projects">Projects</a>
-  <a href="#experience">Experience</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <header class="header">
+    <nav class="navbar container">
 
-<section id="home" class="hero">
-  <h1>Nirajkanth Ravichandran</h1>
-  <p>Data Engineer | Generative AI Enthusiast</p>
+      <a href="index.html" class="logo">NR.</a>
 
-  <p>
-    Self-driven Data Engineer with 3 years of experience and growing expertise in Generative AI, passionate about building scalable data systems and AI-driven solutions.
-  </p>
-</section>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
 
-<section>
-  <h2>Skills</h2>
-  <div class="card skills">
-    <p><b>Languages:</b> Python, SQL</p>
-    <p><b>Cloud:</b> AWS (S3, Lambda, Redshift, DMS)</p>
-    <p><b>Tools:</b> Airflow, dbt, Spark</p>
-    <p><b>AI:</b> LLMs, RAG, NLP</p>
-  </div>
-</section>
+    </nav>
+  </header>
 
-<section id="projects">
-  <h2>Projects</h2>
 
-  <div class="card">
-    <h3>Reddit Data Pipeline</h3>
-    <p>AWS Glue, Athena, Redshift, Airflow</p>
-    <p>Designed and built scalable ETL pipeline for Reddit data analytics.</p>
-  </div>
+  <main>
 
-  <div class="card">
-    <h3>Real-time Voting System</h3>
-    <p>PySpark, Kafka, Streamlit</p>
-    <p>Built real-time streaming system for live vote processing.</p>
-  </div>
+    <!-- Hero -->
+    <section class="hero">
 
-</section>
+      <div class="container hero-grid">
 
-<section id="experience">
-  <h2>Experience</h2>
+        <div class="hero-content">
 
-  <div class="card">
-    <h3>Senior Data Engineer - Velaris</h3>
-    <p>Jan 2026 – Present</p>
-    <p>Leading architecture and reduced platform cost by <b>70%</b>.</p>
-  </div>
+          <p class="eyebrow">
+            DATA ENGINEER & AI ENTHUSIAST
+          </p>
 
-  <div class="card">
-    <h3>Data Engineer - Velaris</h3>
-    <p>2025</p>
-    <p>Built ETL pipelines and improved performance by <b>95%</b>.</p>
-  </div>
+          <h1>
+            Hi, I’m
+            <span>Nirajkanth Ravichandran</span>
+          </h1>
 
-  <div class="card">
-    <h3>Data Engineer - Axiata Digital Labs</h3>
-    <p>2023 – 2024</p>
-    <p>Worked on LLM-based chatbots, RAG pipelines, and SQL bots.</p>
-  </div>
+          <h2>
+            Building scalable data platforms and intelligent AI solutions.
+          </h2>
 
-</section>
+          <p class="hero-description">
+            I am a Data Engineer with experience in cloud data platforms,
+            BigQuery, data integration, Change Data Capture, and Generative AI.
+            I enjoy transforming complex data challenges into reliable,
+            scalable, and practical solutions.
+          </p>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
-  <p>GitHub: github.com/yourusername</p>
-</section>
+          <div class="hero-buttons">
 
-<footer>
-  <p>© 2026 Nirajkanth Ravichandran</p>
-</footer>
+            <a
+              href="projects.html"
+              class="button primary-button"
+            >
+              View Projects
+            </a>
+
+            <a
+              href="experience.html"
+              class="button secondary-button"
+            >
+              View Experience
+            </a>
+
+          </div>
+
+          <div class="social-links">
+
+            <a
+              href="https://github.com/Nirajkanth"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="YOUR-MEDIUM-PROFILE-LINK"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Medium
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+          <div class="hero-card-icon">
+            NR
+          </div>
+
+          <h3>Data Engineering</h3>
+
+          <p>
+            Cloud data platforms, pipelines, CDC, BigQuery,
+            automation, and AI-powered applications.
+          </p>
+
+          <div class="hero-tags">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>BigQuery</span>
+            <span>GCP</span>
+            <span>AWS</span>
+            <span>Generative AI</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="section">
+
+      <div class="container">
+
+        <p class="section-label">ABOUT ME</p>
+
+        <h2 class="section-title">
+          Combining data engineering with intelligent automation
+        </h2>
+
+        <div class="about-grid">
+
+          <div class="about-content">
+
+            <p>
+              I am passionate about the intersection of data, automation,
+              and artificial intelligence. My work focuses on designing
+              scalable data systems, developing reliable integrations,
+              and improving platform performance, reliability, and cost
+              efficiency.
+            </p>
+
+            <p>
+              I currently work as a Data Engineer at Sysco LABS, where I
+              contribute to data engineering research and development,
+              BigQuery platform improvements, and Change Data Capture
+              integrations using Precisely.
+            </p>
+
+            <p>
+              Alongside data engineering, I explore Generative AI through
+              projects involving NL2SQL, Retrieval-Augmented Generation,
+              AI agents, intelligent assistants, and Voice AI.
+            </p>
+
+          </div>
+
+
+          <div class="highlights">
+
+            <article class="highlight-card">
+              <h3>Data Engineering</h3>
+              <p>
+                Scalable pipelines, cloud platforms, data integration,
+                performance optimisation, and automation.
+              </p>
+            </article>
+
+            <article class="highlight-card">
+              <h3>Change Data Capture</h3>
+              <p>
+                Experience with Precisely Connect CDC, AWS DMS,
+                and Google Cloud Datastream.
+              </p>
+            </article>
+
+            <article class="highlight-card">
+              <h3>Generative AI</h3>
+              <p>
+                LLMs, RAG, NL2SQL, AI agents, Voice AI,
+                prompt engineering, and vector databases.
+              </p>
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section class="section alternate-section">
+
+      <div class="container">
+
+        <p class="section-label">TECHNICAL SKILLS</p>
+
+        <h2 class="section-title">
+          Technologies and areas I work with
+        </h2>
+
+        <div class="skills-grid">
+
+          <article class="skill-card">
+            <div class="skill-number">01</div>
+            <h3>Programming</h3>
+            <p>
+              Python, SQL, Bash, HTML, and CSS
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">02</div>
+            <h3>Google Cloud</h3>
+            <p>
+              BigQuery, Cloud Storage, Datastream,
+              Cloud Functions, and GCP services
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">03</div>
+            <h3>AWS</h3>
+            <p>
+              S3, Lambda, Redshift, Glue, Athena,
+              and Database Migration Service
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">04</div>
+            <h3>Data Engineering</h3>
+            <p>
+              ETL, ELT, batch processing, streaming,
+              data modelling, and data quality
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">05</div>
+            <h3>Data Tools</h3>
+            <p>
+              Apache Airflow, Spark, Kafka, dbt,
+              PostgreSQL, Git, and Docker
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">06</div>
+            <h3>Artificial Intelligence</h3>
+            <p>
+              LLMs, RAG, LangGraph, ChromaDB,
+              NLP, AI agents, and prompt engineering
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Featured Projects -->
+    <section class="section">
+
+      <div class="container">
+
+        <div class="section-heading-row">
+
+          <div>
+            <p class="section-label">FEATURED PROJECTS</p>
+
+            <h2 class="section-title">
+              Selected data and AI projects
+            </h2>
+          </div>
+
+          <a
+            href="projects.html"
+            class="text-link"
+          >
+            View all projects →
+          </a>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+          <article class="project-card featured-project">
+
+            <div class="project-top">
+              <span class="project-category">
+                GENERATIVE AI
+              </span>
+
+              <span class="project-status">
+                Featured
+              </span>
+            </div>
+
+            <h3>Intelligent NL2SQL System</h3>
+
+            <p>
+              A multi-agent system that converts natural-language
+              business questions into executable SQL queries.
+            </p>
+
+            <div class="technology-list">
+              <span>Python</span>
+              <span>LangGraph</span>
+              <span>OpenAI</span>
+              <span>ChromaDB</span>
+              <span>PostgreSQL</span>
+              <span>Streamlit</span>
+            </div>
+
+            <a
+              href="projects.html#nl2sql"
+              class="project-link"
+            >
+              View project →
+            </a>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-category">
+                VOICE AI
+              </span>
+            </div>
+
+            <h3>Voice AI Agent</h3>
+
+            <p>
+              An AI-powered voice assistant that understands spoken
+              requests and generates contextual responses.
+            </p>
+
+            <div class="technology-list">
+              <span>Python</span>
+              <span>LLMs</span>
+              <span>Speech-to-Text</span>
+              <span>Text-to-Speech</span>
+              <span>AI Agents</span>
+            </div>
+
+            <a
+              href="projects.html#voice-ai"
+              class="project-link"
+            >
+              View project →
+            </a>
+
+          </article>
+
+
+          <article class="project-card">
+
+            <div class="project-top">
+              <span class="project-category">
+                DATA ENGINEERING
+              </span>
+            </div>
+
+            <h3>Reddit Data Pipeline</h3>
+
+            <p>
+              An end-to-end AWS data pipeline for extracting,
+              transforming, storing, and analysing Reddit data.
+            </p>
+
+            <div class="technology-list">
+              <span>AWS</span>
+              <span>Airflow</span>
+              <span>Glue</span>
+              <span>Athena</span>
+              <span>Redshift</span>
+            </div>
+
+            <a
+              href="projects.html#reddit-pipeline"
+              class="project-link"
+            >
+              View project →
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Experience Preview -->
+    <section class="section alternate-section">
+
+      <div class="container">
+
+        <div class="section-heading-row">
+
+          <div>
+            <p class="section-label">EXPERIENCE</p>
+
+            <h2 class="section-title">
+              Current professional focus
+            </h2>
+          </div>
+
+          <a
+            href="experience.html"
+            class="text-link"
+          >
+            Full experience →
+          </a>
+
+        </div>
+
+
+        <article class="experience-preview">
+
+          <div class="experience-header">
+
+            <div>
+              <h3>Data Engineer</h3>
+              <p class="company-name">Sysco LABS</p>
+            </div>
+
+            <span class="experience-date">
+              Current Role
+            </span>
+
+          </div>
+
+          <p>
+            Working within the Data Engineering team on research and
+            development, data integration, BigQuery platform improvements,
+            and Change Data Capture implementations using Precisely.
+          </p>
+
+          <ul>
+            <li>
+              Design and maintain scalable data integrations.
+            </li>
+
+            <li>
+              Improve BigQuery platform performance and reliability.
+            </li>
+
+            <li>
+              Support CDC integrations and data movement solutions.
+            </li>
+
+            <li>
+              Explore AI-driven automation and intelligent applications.
+            </li>
+          </ul>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- Article -->
+    <section class="section">
+
+      <div class="container">
+
+        <p class="section-label">TECHNICAL WRITING</p>
+
+        <h2 class="section-title">
+          Sharing practical data engineering knowledge
+        </h2>
+
+        <article class="article-card">
+
+          <div>
+
+            <span class="article-platform">
+              MEDIUM ARTICLE
+            </span>
+
+            <h3>
+              Designing Better BigQuery Tables:
+              Practical Schema Design Guidelines
+            </h3>
+
+            <p>
+              A practical guide covering data types, nested and repeated
+              fields, partitioning, clustering, key constraints,
+              and data retention in BigQuery.
+            </p>
+
+          </div>
+
+          <a
+            href="YOUR-MEDIUM-ARTICLE-LINK"
+            class="button secondary-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read Article
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+
+      <div class="container contact-cta-content">
+
+        <div>
+          <p class="section-label light-label">
+            LET’S CONNECT
+          </p>
+
+          <h2>
+            Interested in data engineering, cloud, or AI?
+          </h2>
+
+          <p>
+            Feel free to contact me for professional discussions,
+            collaboration, or project opportunities.
+          </p>
+        </div>
+
+        <a
+          href="contact.html"
+          class="button light-button"
+        >
+          Contact Me
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+
+    <div class="container footer-content">
+
+      <p>
+        © 2026 Nirajkanth Ravichandran
+      </p>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
 </html>
